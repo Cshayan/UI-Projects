@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #f1f2f6;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.github-form-container {
+    margin: auto;
+    text-align: center;
+    padding: 2rem;
+}
+
+.sign-in-text {
+    h3 {
+        margin-top: 1.7rem;
+        font-size: 24px;
+        font-weight: 300;
+        letter-spacing: -0.5px;
+        line-height: 36px;
+        text-shadow: none;
+        overflow-wrap: break-word;
+    }
+
+    margin-bottom: 1.3rem;
+}
+
+.form {
+    height: auto;
+    background: #fff;
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1.5px solid #dfe4ea;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin: 12px;
+
+    label {
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 7px;
+        overflow-wrap: break-word;
+    }
+
+    #password {
+        display: flex; 
+        justify-content: space-between;
+
+        #forgot {
+            font-size: 12px;
+            line-height: 18px;
+            font-weight: 600;
+            cursor: pointer;
+        }
+
+        a { 
+            text-decoration: none;
+            text-decoration-color: rgb(3, 102, 214);
+         }
+    }
+
+    input[type=email], [type=password] {
+        width: 100%;
+        height: 34px;
+        border: 1.5px solid #dfe4ea;
+        border-radius: 5px;
+        padding: 10px;
+
+        &:focus {
+            border: 2px solid #7bed9f;
+        }
+    }
+
+    .signin-btn {
+        width: 100%;
+        height: 34px;
+        cursor: pointer;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        background-color: rgb(38, 159, 66);;
+        background-image: linear-gradient(-180deg, rgb(47, 203, 83), rgb(38, 159, 66) 90%);
+        background-position-x: -7px;
+        background-position-y: 50%;
+        border-bottom-color: rgba(27, 31, 35, 0.2);
+
+        &:hover {
+            opacity: 0.95;
+        }
+    }
+
+}
+
+.create-account {
+    height: auto;
+    border: 1.7px solid #dfe4ea;
+    max-width: 320px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 14px;
+
+    a {
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    margin-bottom: 80px;
+}
+
+.links {
+    margin: 0 auto;
+    max-width: 300px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .blue {
+        color: rgb(3, 102, 214);
+        cursor: pointer;
+    }
+
+    .grey {
+        cursor: pointer;
+        color: #747d8c;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+    
+}
+
+

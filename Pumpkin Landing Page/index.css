@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: url("pumpkin.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+nav {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+nav .logo {
+  width: 65vw;
+  color: #fff;
+  margin-left: 2rem;
+}
+
+nav .menu {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+nav .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+nav .menu-list a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav .menu-list li {
+  list-style-type: none;
+}
+
+.section {
+  margin-top: 5rem;
+  margin-left: 8rem;
+}
+
+.section #head {
+  color: #fff;
+  font-size: 5rem;
+}
+
+.section .line {
+  margin-top: 3rem;
+  background: #fff;
+  width: 50px;
+  height: 7px;
+}
+
+.section #intro {
+  margin-top: 1rem;
+  color: #e67e22;
+}
+/*# sourceMappingURL=index.css.map */

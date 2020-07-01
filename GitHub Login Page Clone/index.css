@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #f1f2f6;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.github-form-container {
+  margin: auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+.sign-in-text {
+  margin-bottom: 1.3rem;
+}
+
+.sign-in-text h3 {
+  margin-top: 1.7rem;
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -0.5px;
+  line-height: 36px;
+  text-shadow: none;
+  overflow-wrap: break-word;
+}
+
+.form {
+  height: auto;
+  background: #fff;
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1.5px solid #dfe4ea;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  margin: 12px;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 7px;
+  overflow-wrap: break-word;
+}
+
+.form-group #password {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form-group #password #forgot {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-group #password a {
+  text-decoration: none;
+  -webkit-text-decoration-color: #0366d6;
+          text-decoration-color: #0366d6;
+}
+
+.form-group input[type=email], .form-group [type=password] {
+  width: 100%;
+  height: 34px;
+  border: 1.5px solid #dfe4ea;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-group input[type=email]:focus, .form-group [type=password]:focus {
+  border: 2px solid #7bed9f;
+}
+
+.form-group .signin-btn {
+  width: 100%;
+  height: 34px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  background-color: #269f42;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2fcb53), color-stop(90%, #269f42));
+  background-image: linear-gradient(-180deg, #2fcb53, #269f42 90%);
+  background-position-x: -7px;
+  background-position-y: 50%;
+  border-bottom-color: rgba(27, 31, 35, 0.2);
+}
+
+.form-group .signin-btn:hover {
+  opacity: 0.95;
+}
+
+.create-account {
+  height: auto;
+  border: 1.7px solid #dfe4ea;
+  max-width: 320px;
+  margin: 0 auto;
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 14px;
+  margin-bottom: 80px;
+}
+
+.create-account a {
+  text-decoration: none;
+}
+
+.create-account a:hover {
+  text-decoration: underline;
+}
+
+.links {
+  margin: 0 auto;
+  max-width: 300px;
+  font-size: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.links .blue {
+  color: #0366d6;
+  cursor: pointer;
+}
+
+.links .grey {
+  cursor: pointer;
+  color: #747d8c;
+}
+
+.links .grey:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=index.css.map */

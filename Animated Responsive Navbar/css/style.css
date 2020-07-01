@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav {
+  background: #f9ca24;
+  height: 13vh;
+}
+
+nav h1 {
+  color: #fff;
+  padding: 10px;
+  vertical-align: center;
+}
+
+nav .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  width: 50%;
+  height: 0%;
+  margin-left: auto;
+}
+
+nav .nav-brand {
+  list-style: none;
+  color: #fff;
+}
+
+nav .nav-item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav .nav-item a:hover {
+  color: #ddd;
+}
+
+.landing {
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.landing h1 {
+  margin: 12px 0;
+}
+
+.landing .like {
+  background: #f9ca24;
+  border: none;
+  outline: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  font-size: 18px;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+}
+
+.landing .like:active {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+}
+
+.landing .like:hover {
+  opacity: 0.7;
+}
+
+@media screen and (max-width: 768px) {
+  .landing h1 {
+    padding: 20px;
+    text-align: center;
+  }
+  nav {
+    position: relative;
+  }
+  nav .nav-links {
+    position: fixed;
+    background: #f9ca24;
+    width: 100%;
+    height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    clip-path: circle(10px at 90% -10%);
+    -webkit-clip-path: circle(10px at 90% -10%);
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    pointer-events: none;
+  }
+  nav .nav-links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  }
+  nav .nav-links a {
+    font-size: 18px;
+  }
+  nav .line {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin: 5px;
+  }
+  nav .hamburger {
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    -webkit-transform: translate(-5%, -50%);
+            transform: translate(-5%, -50%);
+    z-index: 2;
+  }
+}
+/*# sourceMappingURL=style.css.map */

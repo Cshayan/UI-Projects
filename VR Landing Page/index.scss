@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lakki+Reddy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://github.com/Cshayan/Helpful-Online-Links/blob/master/virtual-reality.jpg?raw=true") no-repeat center center fixed;
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.some-text {
+    background: #111;
+    color: #fff;
+    opacity: 0.5;
+    width: 35%;
+    position: absolute;
+    bottom: 0;
+    padding: 1.5rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+
+    div {
+        margin: 4px;
+    }
+
+    i {
+        &:hover {
+            transition: all 0.2s ease-in;
+            scale: (1.2);
+            cursor: pointer;
+        }
+    }
+}
+
+.social {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 12rem;
+
+    i {
+        color: #fff;
+        margin: 1rem;
+        cursor: pointer;
+        transition: all 0.2s ease-in;
+        scale: (1.2);
+    }
+}
+
+.content {
+    height: 100vh;
+    width: 40vw;
+    background: #000000;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #262626, #000000);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #262626, #000000);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    position: absolute;
+    right: 0;
+    transform: skew(20deg);
+    display: flex;
+    flex-direction: column;
+    opacity: 0.8;
+
+    nav {
+        transform: skew(-20deg);
+        letter-spacing: 0.1rem;
+
+        .account {
+            a {
+                text-decoration: none;
+                color: #ffffff;
+                float: right;
+                padding: 1rem;
+            }
+
+            font-size: 1.1rem;
+        }
+    }
+
+    section {
+        color: #fff;
+        transform: skew(-20deg);
+        padding: 6rem;
+        letter-spacing: 0.1rem;
+
+        h1 {
+            font-size: 10rem;
+            font-family: 'Lakki Reddy', cursive;
+        }
+
+        h3 {
+            margin-top: -6rem;
+            font-size: 2rem;
+            margin-left: 2rem;
+        }
+    }
+
+    .button-container {
+        transform: skew(-20deg);
+        padding: 4rem;
+        margin-top: -8rem;
+
+        .btn-join {
+            border: 1.5px solid #fff;
+            outline: none;
+            background: transparent;
+            color: #fff;
+            text-transform: uppercase;
+            margin: 1rem;
+            padding: 7px 9px;
+            border-radius: 50px;
+            letter-spacing: 0.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease-in;
+
+            &:hover {
+                background: #111;
+                border: 1.5px solid #111;
+                color: #fff;
+            }
+        }
+    }
+}

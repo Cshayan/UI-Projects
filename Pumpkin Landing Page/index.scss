@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("pumpkin.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+nav {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+
+    .logo {
+        width: 65vw;
+        color: #fff;
+        margin-left: 2rem;
+    }
+
+    .menu {
+        flex: 1;
+    }
+
+    .menu-list {
+        display: flex;
+        justify-content: space-evenly;
+
+        a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        li {
+            list-style-type: none;
+        }
+    }
+}
+
+.section {
+    margin-top: 5rem;
+    margin-left: 8rem;
+
+    #head {
+        color: #fff;
+        font-size: 5rem;
+    }
+
+    .line {
+        margin-top: 3rem;
+        background: #fff;
+        width: 50px;
+        height: 7px;
+    }
+
+    #intro {
+        margin-top: 1rem;
+        color: #e67e22;
+    }
+}
